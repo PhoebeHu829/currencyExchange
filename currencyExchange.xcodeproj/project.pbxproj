@@ -15,6 +15,7 @@
 		ACE47C492724C07500B5CFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE47C472724C07500B5CFAE /* LaunchScreen.storyboard */; };
 		ACE47C542724C07600B5CFAE /* currencyExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE47C532724C07600B5CFAE /* currencyExchangeTests.swift */; };
 		ACE47C5F2724C07600B5CFAE /* currencyExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE47C5E2724C07600B5CFAE /* currencyExchangeUITests.swift */; };
+		ACE47C6D2724C9C100B5CFAE /* ExchangesRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE47C6C2724C9C100B5CFAE /* ExchangesRates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ACE47C5A2724C07600B5CFAE /* currencyExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = currencyExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE47C5E2724C07600B5CFAE /* currencyExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyExchangeUITests.swift; sourceTree = "<group>"; };
 		ACE47C602724C07600B5CFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE47C6C2724C9C100B5CFAE /* ExchangesRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangesRates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				ACE47C3C2724C07200B5CFAE /* AppDelegate.swift */,
 				ACE47C3E2724C07200B5CFAE /* SceneDelegate.swift */,
 				ACE47C402724C07200B5CFAE /* ViewController.swift */,
+				ACE47C6C2724C9C100B5CFAE /* ExchangesRates.swift */,
 				ACE47C422724C07200B5CFAE /* Main.storyboard */,
 				ACE47C452724C07500B5CFAE /* Assets.xcassets */,
 				ACE47C472724C07500B5CFAE /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE47C6D2724C9C100B5CFAE /* ExchangesRates.swift in Sources */,
 				ACE47C412724C07200B5CFAE /* ViewController.swift in Sources */,
 				ACE47C3D2724C07200B5CFAE /* AppDelegate.swift in Sources */,
 				ACE47C3F2724C07200B5CFAE /* SceneDelegate.swift in Sources */,
